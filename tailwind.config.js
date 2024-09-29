@@ -2,7 +2,11 @@
 module.exports = {
   content: ["*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        mfont: ["Noto Naskh Arabic", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
